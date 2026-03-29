@@ -17,7 +17,7 @@ class TelaVenda(BaseWindow):
     def __init__(self):
         super().__init__("Venda / Pedido")
         self.setWindowTitle("Venda / Pedido")
-        self.resize(600, 400)
+        self.resize(700, 500)
 
         self.combo_cliente = QComboBox()
         self.carregar_clientes()

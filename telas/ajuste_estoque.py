@@ -12,7 +12,7 @@ class TelaAjusteEstoque(BaseWindow):
         super().__init__("Ajuste de Estoque")
 
         self.setWindowTitle("Ajuste de Estoque")
-        self.resize(300, 200)
+        self.resize(700, 500)
 
         layout = self.area
 

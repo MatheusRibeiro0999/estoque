@@ -12,7 +12,7 @@ class TelaCadastroCliente(BaseWindow):
         super().__init__("Cadastro de Clientes")
 
         self.setWindowTitle("Cadastro de Clientes")
-        self.resize(400, 400)
+        self.resize(700, 500)
 
         layout = self.area
 
