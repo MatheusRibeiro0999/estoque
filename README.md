@@ -1,6 +1,9 @@
-## projeto totalmente opensource, desenvolvido para uso pessoal
+## projeto opensource
+desenvolvido para uso pessoal
 criamos este app para controle de estoque, entrada e saída de materiais em uma empresa de esquadrias 
-o arquivo do banco de dados já está estruturado e pronto pra uso, deixei aqui embaixo como foram criadas as tabelas 
+o arquivo do banco de dados já está estruturado e pronto pra uso, deixei aqui embaixo como foram criadas as tabelas
+o app IBOconsole está no repo para facilitar o acesso ao DB, sugiro implementar o projeto na pasta C: do windows ou na pasta raiz 
+é possível alterar o caminho do banco de dados no arquivo database/conexao.py na linha 5 dentro da função get_conexao (dsn=r"C:\estoque\BANCO.FDB",)
 
 Python 3.13
 Firebird 2.5.9 (Banco de dados)
