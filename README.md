@@ -1,5 +1,6 @@
 ## projeto totalmente opensource, desenvolvido para uso pessoal
 criamos este app para controle de estoque, entrada e saída de materiais em uma empresa de esquadrias 
+o arquivo do banco de dados já está estruturado e pronto pra uso, deixei aqui embaixo como foram criadas as tabelas 
 
 Python 3.13
 Firebird 2.5.9 (Banco de dados)
