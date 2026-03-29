@@ -1,4 +1,5 @@
-
+## projeto totalmente opensource, desenvolvido para uso pessoal
+criamos este app para controle de estoque, entrada e saída de materiais em uma empresa de esquadrias 
 
 Python 3.13
 Firebird 2.5.9 (Banco de dados)
@@ -65,7 +66,7 @@ estoque/
     └── dark.qss
     
 
-BANCO DE DADOS:
+##BANCO DE DADOS:
 CREATE TABLE PRODUTOS (
     ID INTEGER NOT NULL,
     NOME VARCHAR(100) NOT NULL,
