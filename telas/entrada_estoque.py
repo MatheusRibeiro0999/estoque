@@ -19,6 +19,8 @@ class TelaEntradaEstoque(BaseWindow):
         super().__init__("Entrada de Nota")
 
         self.setWindowTitle("Entrada de Nota")
+        self.resize(700, 500)
+        
         layout = self.area  
 
         self.btn_novo_produto = QPushButton("Novo Produto")
