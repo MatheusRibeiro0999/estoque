@@ -8,34 +8,62 @@ ReportLab (Geração de PDF)
 
 Estrutura do Projeto
 estoque/
+
 │
+
 ├── main.py
+
 ├── models/
+
 │   ├── produto.py
+
 │   ├── pedido.py
+
 │   ├── cliente.py
+
 │   ├── fornecedor.py
+
 │   └── nota.py
+
 │
+
 ├── telas/
+
 │   ├── base.py
+
 │   ├── menu_principal.py
+
 │   ├── cadastro_produto.py
+
 │   ├── entrada_estoque.py
+
 │   ├── venda.py
+
 │   ├── estoque.py
+
 │   ├── cadastro_cliente.py
+
 │   ├── cadastro_fornecedor.py
+
 │   └── ajuste_estoque.py
+
 │
 ├── utils/
+
 │   └── pdf.py
+
 │
+
 ├── assets/
+
 │   └── logo.png
+
 │
+
 └── styles/
+
     └── dark.qss
+    
 
 BANCO DE DADOS:
 CREATE TABLE PRODUTOS (
