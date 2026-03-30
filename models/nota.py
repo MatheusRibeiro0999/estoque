@@ -20,14 +20,14 @@ def criar_nota(numero_nota, data, fornecedor_id):
 
     return nota_id
 
-def inserir_item_nota(nota_id, produto_id, quantidade, valor_unitario):
+def inserir_item_nota(nota_id, produto_id, quantidade):
     conn = get_conexao()
     cursor = conn.cursor()
 
     cursor.execute("""
-        INSERT INTO ITENS_NOTA (NOTA_ID, PRODUTO_ID, QUANTIDADE, VALOR_UNITARIO)
-        VALUES (?, ?, ?, ?)
-    """, (nota_id, produto_id, quantidade, valor_unitario))
+        INSERT INTO ITENS_NOTA (NOTA_ID, PRODUTO_ID, QUANTIDADE)
+        VALUES (?, ?, ?)
+    """, (nota_id, produto_id, quantidade))
 
     conn.commit()
     conn.close()

@@ -26,8 +26,8 @@ def inserir_item_pedido(pedido_id, produto_id, quantidade):
     cursor = conn.cursor()
 
     cursor.execute("""
-        INSERT INTO ITENS_PEDIDO (PEDIDO_ID, PRODUTO_ID, QUANTIDADE, VALOR_UNITARIO)
-        VALUES (?, ?, ?, 0)
+        INSERT INTO ITENS_PEDIDO (PEDIDO_ID, PRODUTO_ID, QUANTIDADE)
+        VALUES (?, ?, ?)
     """, (pedido_id, produto_id, quantidade))
 
     conn.commit()
